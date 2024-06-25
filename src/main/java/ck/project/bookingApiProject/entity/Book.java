@@ -23,4 +23,11 @@ public class Book {
     private String author;
     private String year;
     private double price;
+
+    public Book(String title, String author, String year, double price) {
+        this.title = title;
+        this.author = author;
+        this.year = year;
+        this.price = price;
+    }
 }
